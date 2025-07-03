@@ -1,0 +1,16 @@
+Passwords.vjsp (Inspired by https://passwords.google.com/)
+
+User should be able to add:
+- username 
+- email
+- passwords
+- website link
+- website icon/image
+- note
+- custom color
+- custom label
+
+More features:
+- Light/Dark Theme(s)
+- Import/Export passwords
+– Generate passwords
