@@ -1,0 +1,23 @@
+==========
+Guide:
+
+- Code implementation/changes (special comments)
+^ Challenges/bugs (potential)
+    => Solutions (potential)
+> Error message/console outputs
+# Comments (generic)
+@ Files (Where?)
+==========
+
+4 July 2025 - 0145 Hrs:
+# Initialized the project files
+@ index.html:
+    # Created basic structure for new password popup
+@ style.css:
+    - Removed preset values of margin, padding
+    - Set the main font to monospace & fallback font to sans-serif
+@ script.js:
+    - Tried adding popup directly into the body upon clicking "New Password" button
+        ^ Duplicate/repeatative ids found upon clicking "New Password" button 
+            > Found 2 elements with non-unique id #email: (More info: https://goo.gl/9p2vKq) <input type=​"email" name=​"email" id=​"email" placeholder=​"Enter Email" required>​
+        => trimm the website's url to extract just the domain (using regex functions?)

@@ -14,3 +14,4 @@ More features:
 - Light/Dark Theme(s)
 - Import/Export passwords
 – Generate passwords
+– Login/logut, register, delete account

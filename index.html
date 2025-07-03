@@ -10,17 +10,27 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔐</text></svg>">
 </head>
 <body>
+    <button type="button" id="new-password">New Password</button>
     <!-- This is the code for the Popup for editing passwords, creating new passwords -->
     <div class="popup-container">
         <h2 class="popup-heading"></h2>
         <!-- There will be a close/esc button here -->
         <form action="">
             <label for="username">Username: </label>
-            <input type="text" name="username" id="username" placeholder="Enter Username">
+            <input type="text" name="username" id="username" placeholder="Enter Username" required>
+            <br>
             <label for="email">Email: </label>
-            <input type="email" name="email" id="email" placeholder="Enter Email">
+            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+            <br>
             <label for="password">Password: </label>
-            <input type="password" name="password" id="password" placeholder="Enter Password">
+            <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            <br>
+            <label for="website">Website Link:</label>
+            <input type="url" name="website" id="website" placeholder="Enter Website Link" required>
+            <br>
+            <label for="note">Note:</label>
+            <input type="text" name="note" id="note" placeholder="Add a note...">
+            <br>
             <!-- There will be two buttons: "Save" & "Reset" -->
             <button type="button">Save</button>
             <button type="reset">Reset</button>
